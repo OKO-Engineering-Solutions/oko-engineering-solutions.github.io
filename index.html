@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>OKO Engineering Solutions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/favicon.png">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    html,
+    body {
+      height: 100%;
+      width: 100%;
+      background-color: #222;
+      font-family: 'Lato', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    #text {
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+    #text {
+      min-height: 100vh;
+      width: 100vw;
+      z-index: 1;
+      color: #fff;
+      font-size: 3vmin;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+      font-size: 4vmin;
+    }
+
+    #text span {
+      color: #065D85;
+      transition: 1s;
+      padding: .5rem .5rem;
+      cursor: default;
+    }
+    #text span:hover {
+      color: #098CC4;
+      padding: .5rem 1.5rem;
+      background-color: rgba(34, 34, 34, 0.8);
+      border-radius: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="text">
+    <p><a href="mailto:contact@okoeng.com"><img src="logo.png" style="max-width: 95vw;"/></a></p>
+    <div>
+      <span>Hardware</span><span>Software</span><span>Embedded</span>
+    </div>
+    <div>
+      <span><a href="mailto:contact@okoeng.com">✉</a></span>
+      <span style="font-weight: bold;"><a href="tel:+40751481020">✆</a></span>
+    </div>
+  </div>
+  <script type="text/javascript" color="255,255,255" pointColor="255,255,255" opacity='1' zIndex="0" count="300"
+    src="dist/canvas-nest.js"></script>
+  <script type="text/javascript" src="dist/canvas-nest.umd.js"></script>
+</body>
+
+</html>
