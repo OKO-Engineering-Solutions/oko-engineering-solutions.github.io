@@ -1,119 +1,8 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>OKO Engineering Solutions</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
-    <link rel="icon" type="image/x-icon" href="/favicon.png" />
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
 
-      html,
-      body {
-        height: 100%;
-        width: 100%;
-        background-color: #222;
-        font-family: "Lato", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-
-        -ms-overflow-style: none;  /* Internet Explorer 10+ */
-        scrollbar-width: none;  /* Firefox */
-        
-        scroll-snap-type: y mandatory;
-        scroll-behavior: smooth;
-      }
-      html::-webkit-scrollbar,
-      body::-webkit-scrollbar {
-        display: none;
-      }
-
-      a {
-        text-decoration: none;
-        color: inherit;
-        font-size: 4vmin;
-      }
-
-      section {
-        width: 100vw;
-        height: 100vh;
-        scroll-snap-align: start;
-      }
-
-      #hero {
-        display: block;
-        z-index: 1;
-        color: #fff;
-        font-size: 3vmin;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        flex-direction: column;
-      }
-
-      #hero span {
-        color: #065d85;
-        transition: 1s;
-        padding: 0.5rem 0.5rem;
-        cursor: default;
-      }
-      #hero span:hover {
-        color: #098cc4;
-        padding: 0.5rem 1.5rem;
-        background-color: rgba(34, 34, 34, 0.8);
-        border-radius: 1rem;
-      }
-
-      #description {
-        padding-top: 3rem;
-        background-color: #065d85;
-      }
-
-      #products {
-        background-color: rgb(255, 255, 255);
-      }
-
-      #board3dChipLEDSideTop {
-        animation: board3dAnimLedTop 1s infinite alternate;
-      }
-
-      @keyframes board3dAnimLedTop {
-        from {
-          box-shadow: 0 0 10px -10px;
-        }
-        to {
-
-        }
-      }
-    </style>
-  </head>
-
-  <body>
-    <section id="hero">
-      <p>
-        <a href="mailto:contact@okoeng.com">
-          <picture style="max-width: 95vw">
-            <source srcset="logo_compact.png" media="(max-width: 1000px)" />
-            <img src="logo.png" />
-          </picture>
-        </a>
-      </p>
-      <div><span>Hardware</span><span>Software</span><span>Embedded</span></div>
-      <div>
-        <span><a href="mailto:contact@okoeng.com">✉</a></span>
-        <span style="font-weight: bold"><a href="tel:+40751481020">✆</a></span>
-      </div>
-    </section>
-    <section id="description">
-      <button id="nextAnimation" onclick="javascript:animateNext()">Next animation</button>
-      <svg
-   sodipodi:docname="board3d_end.svg"
+<svg
+   sodipodi:docname="board3d.svg"
    id="svg11805"
    version="1.1"
    viewBox="0 0 167.70651 85.690308"
@@ -136,15 +25,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="11.313708"
-     inkscape:cx="503.41584"
-     inkscape:cy="168.29142"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="269.76124"
+     inkscape:cy="205.41452"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="1358"
      inkscape:window-y="1072"
      inkscape:window-maximized="1"
-     inkscape:current-layer="board3dLayerChips"
+     inkscape:current-layer="svg11805"
      showguides="true"><inkscape:grid
        type="xygrid"
        id="grid37425"
@@ -216,6 +105,15 @@
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(2.6243616,0,0,2.6243616,-145.74313,102.98021)" /><linearGradient
        inkscape:collect="always"
+       xlink:href="#linearGradient8727"
+       id="linearGradient8729-9-8-4"
+       x1="79.994766"
+       y1="233.19106"
+       x2="92.027496"
+       y2="233.19106"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.6243616,0,0,2.6243616,-80.995336,165.3855)" /><linearGradient
+       inkscape:collect="always"
        xlink:href="#linearGradient10043"
        id="linearGradient10045-9-6"
        x1="92.027496"
@@ -252,45 +150,45 @@
        id="path13888" /><path
        style="fill:#1dab03;fill-opacity:1;stroke:none;stroke-width:0.899999"
        d="m 112.62513,270.80104 v -1.74927 l 68.29061,-57.30264 1e-5,1.99968 -68.29062,57.05223"
-       id="path15186" /></g><g
+       id="path15186" /></g><path
+     style="fill:none;fill-opacity:1;stroke:#f9c900;stroke-width:0.899999;stroke-opacity:1"
+     d="m 89.222835,244.97655 10.639489,-8.92758 -0.07324,-2.48488 -4.344661,-1.16415"
+     id="path42533"
+     transform="translate(-13.209244,-185.11073)" /><path
+     style="fill:none;fill-opacity:1;stroke:#f9c900;stroke-width:0.899999;stroke-opacity:1"
+     d="m 83.761155,251.35786 12.598015,3.47445 9.93035,-3.34255"
+     id="path42535"
+     sodipodi:nodetypes="ccc"
+     transform="translate(-13.209244,-185.11073)" /><path
+     style="fill:none;fill-opacity:1;stroke:#f9c900;stroke-width:0.899999;stroke-opacity:1"
+     d="M 80.877042,228.49662 54.80912,221.51174 44.749164,224.29453"
+     id="path42537"
+     transform="translate(-13.209244,-185.11073)" /><path
+     style="fill:none;fill-opacity:1;stroke:#f9c900;stroke-width:0.899999;stroke-opacity:1"
+     d="m 41.780007,226.78595 -6.185741,5.19045 -2.514992,0.6957 -8.660044,7.26664"
+     id="path42539"
+     transform="translate(-13.209244,-185.11073)" /><path
+     style="fill:none;fill-opacity:1;stroke:#f9c900;stroke-width:0.899999;stroke-opacity:1"
+     d="m 28.252748,240.96593 7.422893,-6.22855 7.544964,-2.08709 4.330013,-3.63331"
+     id="path42541"
+     transform="translate(-13.209244,-185.11073)" /><path
+     style="fill:none;fill-opacity:1;stroke:#f9c900;stroke-width:0.899999;stroke-opacity:1"
+     d="m 50.643498,226.42175 5.029982,-1.3914 26.834627,7.19032"
+     id="path42543"
+     transform="translate(-13.209244,-185.11073)" /><path
+     style="fill:none;fill-opacity:1;stroke:#f9c900;stroke-width:0.899999;stroke-opacity:1"
+     d="m 86.398592,235.18055 -8.907471,7.47425 -14.347646,3.55132"
+     id="path42547"
+     transform="translate(-13.209244,-185.11073)" /><path
+     style="fill:none;fill-opacity:1;stroke:#f9c900;stroke-width:0.899999;stroke-opacity:1"
+     d="m 83.842917,234.49575 -8.165182,6.85141 -16.878914,3.69481 -3.066815,-0.82175"
+     id="path42549"
+     transform="translate(-13.209244,-185.11073)" /><g
      inkscape:groupmode="layer"
      id="board3dLayerTraces"
      inkscape:label="traces"
      inkscape:highlight-color="#b67214"
      transform="translate(-13.209244,-185.11073)"><path
-       style="fill:none;fill-opacity:1;stroke:#f9c900;stroke-width:0.899999;stroke-opacity:1"
-       d="m 89.222835,244.97655 10.639489,-8.92758 -0.07324,-2.48488 -4.344661,-1.16415"
-       id="path42533"
-       transform="translate(-7.0833332e-8)" /><path
-       style="fill:none;fill-opacity:1;stroke:#f9c900;stroke-width:0.899999;stroke-opacity:1"
-       d="m 83.761155,251.35786 12.598015,3.47445 9.93035,-3.34255"
-       id="path42535"
-       sodipodi:nodetypes="ccc"
-       transform="translate(-7.0833332e-8)" /><path
-       style="fill:none;fill-opacity:1;stroke:#f9c900;stroke-width:0.899999;stroke-opacity:1"
-       d="M 80.877042,228.49662 54.80912,221.51174 44.749164,224.29453"
-       id="path42537"
-       transform="translate(-7.0833332e-8)" /><path
-       style="fill:none;fill-opacity:1;stroke:#f9c900;stroke-width:0.899999;stroke-opacity:1"
-       d="m 41.780007,226.78595 -6.185741,5.19045 -2.514992,0.6957 -8.660044,7.26664"
-       id="path42539"
-       transform="translate(-7.0833332e-8)" /><path
-       style="fill:none;fill-opacity:1;stroke:#f9c900;stroke-width:0.899999;stroke-opacity:1"
-       d="m 28.252748,240.96593 7.422893,-6.22855 7.544964,-2.08709 4.330013,-3.63331"
-       id="path42541"
-       transform="translate(-7.0833332e-8)" /><path
-       style="fill:none;fill-opacity:1;stroke:#f9c900;stroke-width:0.899999;stroke-opacity:1"
-       d="m 50.643498,226.42175 5.029982,-1.3914 26.834627,7.19032"
-       id="path42543"
-       transform="translate(-7.0833332e-8)" /><path
-       style="fill:none;fill-opacity:1;stroke:#f9c900;stroke-width:0.899999;stroke-opacity:1"
-       d="m 86.398592,235.18055 -8.907471,7.47425 -14.347646,3.55132"
-       id="path42547"
-       transform="translate(-7.0833332e-8)" /><path
-       style="fill:none;fill-opacity:1;stroke:#f9c900;stroke-width:0.899999;stroke-opacity:1"
-       d="m 83.842917,234.49575 -8.165182,6.85141 -16.878914,3.69481 -3.066815,-0.82175"
-       id="path42549"
-       transform="translate(-7.0833332e-8)" /><path
        style="fill:none;fill-opacity:1;stroke:#f9c900;stroke-width:0.899999;stroke-opacity:1"
        d="m 100.99695,222.93107 5.93831,-4.98284 12.07195,-3.33934 16.61191,4.45115"
        id="path42451" /><path
@@ -833,7 +731,7 @@
          d="m 103.67707,224.68034 -3.709621,3.1236 v 2.24261 l 3.681391,-3.19536 0.0282,-2.17085"
          id="path8695-6-2-4"
          sodipodi:nodetypes="ccccc" /><path
-         style="fill:#626262;fill-opacity:1;stroke-width:0.899999"
+         style="fill:url(#linearGradient8729-9-8-4);fill-opacity:1;stroke-width:0.899999"
          d="m 99.967449,227.80394 -12.032729,-3.2354 10e-7,2.22174 12.032728,3.25627 v -2.24261"
          id="path8715-4-0-7"
          sodipodi:nodetypes="ccccc" /><path
@@ -887,40 +785,6 @@
          style="fill:#b4b4b4;fill-opacity:1;stroke:none;stroke-width:1.53621"
          d="m 95.40743,224.13109 1.487705,-1.27429 -0.0282,2.17085 -1.481832,1.29062 z"
          id="path9154-3"
-         sodipodi:nodetypes="ccccc" /></g><g
-       id="board3dChipResistor3"
-       inkscape:label="resistor #3"
-       transform="matrix(0.58585623,0,0,0.58585623,98.781556,97.050467)"><path
-         id="rect5455-3-0-1-1-6"
-         style="fill:#343434;fill-opacity:1;stroke-width:1.04128"
-         d="m 278.34671,231.59306 5.43734,1e-5 0.0906,8.85917 -5.43734,-1e-5 z"
-         sodipodi:nodetypes="ccccc"
-         transform="matrix(0.96569985,0.25966095,-0.76494103,0.64410032,0,0)"
-         inkscape:label="led_side_top" /><path
-         style="fill:#808080;fill-opacity:1;stroke-width:0.899999"
-         d="m 96.895165,222.8568 -6.689235,5.72973 v 2.24261 l 6.661005,-5.80149 0.0282,-2.17085"
-         id="path8695-6-2-4-6-2"
-         sodipodi:nodetypes="ccccc"
-         inkscape:label="led_side_lateral" /><path
-         style="fill:#9c9c9c;fill-opacity:1;stroke-width:0.899999"
-         d="m 84.955106,227.17467 10e-7,2.22174 5.250823,1.43273 v -2.24261"
-         id="path8715-4-0-7-8-5"
-         sodipodi:nodetypes="cccc" /><path
-         style="fill:#b8b8b8;fill-opacity:1;stroke:none;stroke-width:0.899999"
-         d="m 64.657869,203.0719 3.076231,0.82716 0.871583,-0.74655 -3.09793,-0.80857 z"
-         id="path8125-8"
-         transform="matrix(1.7069034,0,0,1.7069034,-25.409647,-119.44948)"
-         sodipodi:nodetypes="ccccc" /><path
-         style="fill:#e9e9e9;fill-opacity:1;stroke:none;stroke-width:1.53621"
-         d="m 90.205922,228.58652 1.487707,-1.27429 v 2.24037 l -1.487698,1.27654 z"
-         id="path9154-6" /><path
-         style="fill:#b8b8b8;fill-opacity:1;stroke:none;stroke-width:1.53621"
-         d="m 90.193672,222.6875 5.213755,1.44359 1.487708,-1.27429 -5.250793,-1.41186 z"
-         id="path8125-0-5"
-         sodipodi:nodetypes="ccccc" /><path
-         style="fill:#e9e9e9;fill-opacity:1;stroke:none;stroke-width:1.53621"
-         d="m 95.40743,224.13109 1.487705,-1.27429 -0.0282,2.17085 -1.481832,1.29062 z"
-         id="path9154-3-6"
          sodipodi:nodetypes="ccccc" /></g><g
        id="board3dChipPlug"
        inkscape:label="plug"
@@ -1077,20 +941,3 @@
          d="m 50.52352,265.10464 c 0,0 1.566323,2.07318 5.374008,2.08359 3.699867,0.0101 5.374008,-2.08359 5.374008,-2.08359 0,0 -1.707213,-1.84423 -5.374007,-1.84423 -3.840758,0 -5.374009,1.84423 -5.374009,1.84423"
          id="path6013"
          sodipodi:nodetypes="cscsc" /></g></g></svg>
-    </section>
-    <section id="products">
-
-    </section>
-    <script type="text/javascript" src="board3d.js"></script>
-    <script type="text/javascript" src="dist/canvas-nest.umd.js"></script>
-    <script type="text/javascript">
-      var cn = new CanvasNest(document.getElementById("hero"), {
-        color: "255,255,255",
-        pointColor: "255,255,255",
-        count: 300,
-        opacity: 1,
-        zIndex: -1
-      });
-    </script>
-  </body>
-</html>
